@@ -63,18 +63,6 @@ margin: 20px;
 .header-button{
   margin-top: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /*buttons*/
 .button1{
   width: 300px;
@@ -93,6 +81,13 @@ margin: 20px;
   color: #475F45;
   padding: 20px;
 }
+.button3{
+  width: 300px;
+  height: 70px;
+  border: 1px solid #475F45;
+  color:white ;
+  padding: 20px;
+}
 .button2:hover{
   background-color: #475F45;
   color: white;
@@ -101,3 +96,6 @@ margin: 20px;
   background-color: white;
   color: #475F45;
 }
+
+
+/*main*/
