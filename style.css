@@ -63,31 +63,27 @@ margin: 20px;
 .header-button{
   margin-top: 30px;
 }
-/*buttons*/
+/*header-buttons*/
 .button1{
-  width: 300px;
-  height: 70px;
+  width: 200px;
+  height: 40px;
   background-color: #475F45;
   border: 2px solid #475F45;
   color:white;
-  padding: 20px;
+  padding: 10px;
+  font-size: 20px;
 
 }
 .button2{
-  width: 300px;
-  height: 70px;
+  width: 200px;
+  height: 40px;
   background-color: white;
   border: 1px solid #475F45;
   color: #475F45;
-  padding: 20px;
+  padding: 10px;
+  font-size: 20px;
 }
-.button3{
-  width: 300px;
-  height: 70px;
-  border: 1px solid #475F45;
-  color:white ;
-  padding: 20px;
-}
+
 .button2:hover{
   background-color: #475F45;
   color: white;
@@ -99,3 +95,42 @@ margin: 20px;
 
 
 /*main*/
+.main-section{
+  background-image: url(./Imegas/Rectangle\ 23.png);
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  box-sizing: border-box;
+  padding: 20px;
+  
+ 
+}
+.main-section__item2{
+  width: 400px;
+  height: 200px;
+  font-size: 20px;
+ 
+  color: white;
+}
+.main-title{
+  
+  font-size: 50px; 
+  font-family: 'Libre Baskerville';
+}
+
+.main-button{
+  font-size: 15px;
+  margin-top: 10px;
+ width: 100px;
+ color: white;
+ height: 20px;
+ background-color: #475F45;
+ border: 1px solid white;
+  display: block;
+padding: 20px;
+text-align: center;
+margin-top: 20px;
+}
+/*main-section-2*/
